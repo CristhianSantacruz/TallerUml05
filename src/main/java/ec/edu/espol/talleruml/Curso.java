@@ -4,6 +4,7 @@
  */
 package ec.edu.espol.talleruml;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,7 +19,12 @@ public class Curso {
     private List<Estudiante> estudianteInscritos;
     private List<Estudiante> estudianteEnEsperaDeInscripcion;
     private List<Foro> foros;
-    // private List<ActividadSumativa> actividadeSumativas;
     
+    
+    private List<ActividadSumativa> actividadeSumativas;
+    
+    public Curso(){
+        this.actividadeSumativas = new ArrayList<>();
+    }
     
 }

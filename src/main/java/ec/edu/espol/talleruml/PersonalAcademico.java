@@ -21,7 +21,7 @@ public class PersonalAcademico extends Usuario{
     public void reportarError(String email, String contenido){
      //Logic
     }
-    public void solicitarAsesoramiento() {
+    public void solicitarAsesoramientoDelSistema(String email, String contenido) {
       //Logic
         
     }

@@ -20,6 +20,7 @@ public class Administrador extends Usuario {
     public void actualizarSoftware(){
         //Logic
     }
+    
     public void asignarResponsable(Curso curso , Profesor responsable){
         //Logic
     }   

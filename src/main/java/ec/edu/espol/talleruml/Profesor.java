@@ -4,11 +4,16 @@
  */
 package ec.edu.espol.talleruml;
 
+import java.util.List;
+
+
+
 /**
  *
  * @author CltControl
  */
 public class Profesor extends PersonalAcademico{
+    private List<Curso> cursosACargo;
     public void cargarActividadSumativa(Curso curso , ActividadSumativa actividadSumativa){
         //Logic
     }
